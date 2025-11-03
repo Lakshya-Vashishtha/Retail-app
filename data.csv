@@ -1,0 +1,127 @@
+id,name,brand,category,price,cost_price,quantity,expiry_date
+1,Ashwagandha Churna,Dabur,Churna,140.0,98.0,74,2028-03-17
+2,Triphala Tablet,Himalaya,Tablet,155.5,108.85,93,2027-11-21
+3,Liv 52 Syrup,Himalaya,Syrup,112.0,78.4,86,2027-07-13
+4,Chyawanprash,Patanjali,Avaleha,280.0,196.0,65,2028-12-24
+5,Maha Narayan Oil,Zandu,Oil,180.0,126.0,116,2029-02-01
+6,Dashmoolarishta,Baidyanath,Asava/Arishta,220.0,154.0,40,2027-08-09
+7,Neem Capsule,Sri Sri Tattva,Capsule,130.0,91.0,100,2026-06-17
+8,Kumkumadi Tailam,Kerala Ayurveda,Oil,350.0,245.0,22,2027-01-20
+9,Sitopaladi Churna,Zandu,Churna,125.0,87.5,56,2028-09-11
+10,Giloy Tablet,Dabur,Tablet,95.5,66.85,78,2029-04-03
+11,Brahmi Vati,Dabur,Vati,85.0,59.5,120,2027-05-30
+12,Yashtimadhu Powder,Kerala Ayurveda,Churna,110.0,77.0,45,2028-07-14
+13,Punarnavarishta,Baidyanath,Asava/Arishta,210.0,147.0,33,2027-10-25
+14,Amalaki Rasayan,Patanjali,Rasayan,175.0,122.5,88,2028-11-05
+15,Shallaki Capsule,Himalaya,Capsule,195.0,136.5,60,2026-12-19
+16,Mahanarayan Tailam,Baidyanath,Oil,165.0,115.5,90,2029-01-15
+17,Drakshasava,Baidyanath,Asava/Arishta,230.0,161.0,29,2027-09-22
+18,Guggulu Capsule,Sri Sri Tattva,Capsule,145.0,101.5,110,2026-08-11
+19,Triphala Churna,Dabur,Churna,120.0,84.0,150,2028-06-08
+20,Arjunarishta,Baidyanath,Asava/Arishta,215.0,150.5,38,2027-04-17
+21,Ashwagandha Tablet,Himalaya,Tablet,160.0,112.0,95,2028-02-28
+22,Bala Tailam,Kottakkal,Oil,190.0,133.0,50,2027-07-01
+23,Chandraprabha Vati,Dabur,Vati,90.0,63.0,130,2028-10-10
+24,Amritarishta,Baidyanath,Asava/Arishta,225.0,157.5,42,2027-03-12
+25,Hingvashtak Churna,Zandu,Churna,75.0,52.5,200,2028-05-23
+26,Lodhrasava,Baidyanath,Asava/Arishta,235.0,164.5,27,2027-12-14
+27,Shankhapushpi Syrup,Himalaya,Syrup,105.0,73.5,80,2026-11-30
+28,Panchtikta Ghrita,Baidyanath,Ghrita,380.0,266.0,18,2029-03-25
+29,Aragwadhadi Kashayam,Kerala Ayurveda,Kashayam,170.0,119.0,65,2028-04-19
+30,Gokshuradi Guggulu,Dabur,Guggulu,135.0,94.5,105,2027-06-21
+31,Vacha Churna,Sri Sri Tattva,Churna,95.0,66.5,140,2028-08-07
+32,Abhayarishta,Baidyanath,Asava/Arishta,218.0,152.6,35,2027-02-08
+33,Khadirarishta,Baidyanath,Asava/Arishta,212.0,148.4,40,2027-01-31
+34,Bhumyamalaki Capsule,Organic India,Capsule,175.0,122.5,70,2026-10-05
+35,Guduchi Satva,Patanjali,Satva,150.0,105.0,85,2028-12-01
+36,Jatamansi Powder,Kerala Ayurveda,Churna,125.0,87.5,60,2027-11-11
+37,Kanchnar Guggulu,Himalaya,Guggulu,142.0,99.4,98,2028-07-30
+38,Mustadi Kashayam,Kottakkal,Kashayam,185.0,129.5,55,2027-05-17
+39,Pippalyasava,Baidyanath,Asava/Arishta,240.0,168.0,25,2026-09-23
+40,Saraswatarishta,Baidyanath,Asava/Arishta,222.0,155.4,32,2027-08-08
+41,Shilajit Capsule,Patanjali,Capsule,290.0,203.0,40,2029-05-10
+42,Trikatu Churna,Dabur,Churna,80.0,56.0,180,2028-01-26
+43,Vilwadi Gulika,Vyas,Vati,110.0,77.0,115,2027-07-05
+44,Yograj Guggulu,Dabur,Guggulu,155.0,108.5,92,2028-03-03
+45,Amalaki Churna,Organic India,Churna,130.0,91.0,75,2027-04-05
+46,Brahmi Capsule,Himalaya,Capsule,168.0,117.6,82,2028-09-19
+47,Chitrakadi Vati,Zandu,Vati,70.0,49.0,160,2027-12-25
+48,Dashmool Kwath,Baidyanath,Kwath,195.0,136.5,58,2026-07-14
+49,Eladi Tailam,Kerala Ayurveda,Oil,310.0,217.0,20,2029-06-18
+50,Haridra Khand,Patanjali,Avaleha,265.0,185.5,48,2028-10-29
+51,Jeerakarishta,Baidyanath,Asava/Arishta,228.0,159.6,30,2027-10-10
+52,Kaisore Guggulu,Baidyanath,Guggulu,148.0,103.6,100,2028-02-14
+53,Kutajarishta,Baidyanath,Asava/Arishta,232.0,162.4,28,2027-11-02
+54,Lasunadi Vati,Dabur,Vati,88.0,61.6,125,2028-05-05
+55,Madhunasini Capsule,Sri Sri Tattva,Capsule,195.0,136.5,65,2026-05-21
+56,Manjistha Capsule,Organic India,Capsule,178.0,124.6,72,2028-08-22
+57,Nagaradi Kashayam,Kottakkal,Kashayam,172.0,120.4,62,2027-06-12
+58,Nimbarishta,Baidyanath,Asava/Arishta,219.0,153.3,36,2027-09-15
+59,Panchasakar Churna,Zandu,Churna,78.0,54.6,190,2028-04-07
+60,Pippali Churna,Sri Sri Tattva,Churna,100.0,70.0,135,2027-03-03
+61,Prawal Panchamrit,Baidyanath,Bhasma,450.0,315.0,12,2029-07-01
+62,Rasayana Churna,Patanjali,Churna,145.0,101.5,95,2028-11-15
+63,Saptamrit Lauh,Baidyanath,Lauh,120.0,84.0,110,2027-02-28
+64,Shallaki Oil,Himalaya,Oil,175.0,122.5,78,2029-04-22
+65,Shatavari Powder,Organic India,Churna,142.0,99.4,80,2028-06-30
+66,Sudarshan Ghan Vati,Dabur,Vati,92.0,64.4,122,2027-12-05
+67,Trifla Guggulu,Zandu,Guggulu,138.0,96.6,108,2028-07-07
+68,Vasa Syrup,Himalaya,Syrup,115.0,80.5,84,2026-08-25
+69,Vijayasar Kwath,Baidyanath,Kwath,188.0,131.6,60,2027-01-12
+70,Ajamodadi Churna,Kerala Ayurveda,Churna,105.0,73.5,130,2028-03-28
+71,Arogyavardhini Vati,Baidyanath,Vati,95.0,66.5,140,2027-05-09
+72,Ashokarishta,Baidyanath,Asava/Arishta,224.0,156.8,33,2027-07-24
+73,Avipattikar Churna,Zandu,Churna,82.0,57.4,170,2028-02-17
+74,Bhallatak Avaleha,Baidyanath,Avaleha,320.0,224.0,15,2028-12-10
+75,Brihat Vatchintamani,Baidyanath,Ras,520.0,364.0,8,2029-08-05
+76,Chandanadi Tailam,Kottakkal,Oil,295.0,206.5,22,2027-10-08
+77,Chandanasava,Baidyanath,Asava/Arishta,234.0,163.8,26,2026-12-05
+78,Dadimashtaka Churna,Zandu,Churna,87.0,60.9,155,2028-01-15
+79,Danti Avaleha,Baidyanath,Avaleha,275.0,192.5,44,2027-11-28
+80,Dhatri Lauh,Baidyanath,Lauh,115.0,80.5,112,2028-05-19
+81,Drakshadi Kashayam,Kerala Ayurveda,Kashayam,165.0,115.5,68,2027-04-14
+82,Gandhak Rasayan,Baidyanath,Rasayan,135.0,94.5,102,2028-09-28
+83,Gokshuradi Kashayam,Kottakkal,Kashayam,178.0,124.6,64,2027-08-17
+84,Guduchi Juice,Patanjali,Swarasa,200.0,140.0,50,2026-09-05
+85,Haritaki Churna,Organic India,Churna,118.0,82.6,145,2028-10-12
+86,Jatiphaladi Churna,Kerala Ayurveda,Churna,112.0,78.4,125,2027-12-22
+87,Kaishore Guggulu,Baidyanath,Guggulu,152.0,106.4,94,2028-04-04
+88,Kankayan Vati,Zandu,Vati,84.0,58.8,148,2027-06-30
+89,Khadirarishta,Baidyanath,Asava/Arishta,212.0,148.4,40,2027-01-31
+90,Kumaryasava,Baidyanath,Asava/Arishta,238.0,166.6,24,2026-11-17
+91,Kutki Capsule,Organic India,Capsule,185.0,129.5,66,2028-08-14
+92,Lavangadi Vati,Dabur,Vati,96.0,67.2,118,2027-10-31
+93,Lohasava,Baidyanath,Asava/Arishta,245.0,171.5,23,2027-03-25
+94,Mahasudarshan Ghan Vati,Zandu,Vati,105.0,73.5,128,2028-06-12
+95,Mashadi Tailam,Kerala Ayurveda,Oil,285.0,199.5,26,2029-02-28
+96,Mustadi Churna,Sri Sri Tattva,Churna,90.0,63.0,150,2027-09-09
+97,Narayana Tailam,Baidyanath,Oil,170.0,119.0,86,2028-07-21
+98,Navayasa Lauh,Patanjali,Lauh,125.0,87.5,105,2027-05-05
+99,Nilibhringadi Tailam,Kottakkal,Oil,305.0,213.5,19,2029-01-08
+100,Pippalyadi Ghrita,Baidyanath,Ghrita,395.0,276.5,16,2029-07-20
+101,Punarnava Mandur,Baidyanath,Mandur,130.0,91.0,98,2028-03-10
+102,Rajapravartini Vati,Baidyanath,Vati,110.0,77.0,120,2027-08-28
+103,Rasna Patrak Kashayam,Kerala Ayurveda,Kashayam,182.0,127.4,58,2027-07-07
+104,Saraswatha Ghrita,Baidyanath,Ghrita,410.0,287.0,14,2029-09-12
+105,Shankha Bhasma,Baidyanath,Bhasma,480.0,336.0,10,2029-10-05
+106,Shilajit Shuddha,Baidyanath,Avaleha,350.0,245.0,30,2028-11-25
+107,Sukumara Ghrita,Baidyanath,Ghrita,370.0,259.0,20,2029-04-15
+108,Swarna Makshik Bhasma,Baidyanath,Bhasma,550.0,385.0,7,2029-11-18
+109,Talisadi Churna,Zandu,Churna,108.0,75.6,132,2028-08-05
+110,Triphala Ghrita,Baidyanath,Ghrita,360.0,252.0,22,2029-03-08
+111,Vacha Tailam,Kerala Ayurveda,Oil,195.0,136.5,74,2027-11-14
+112,Vasantu Kusumakar Ras,Baidyanath,Ras,600.0,420.0,5,2029-12-25
+113,Vatagajankush Ras,Baidyanath,Ras,580.0,406.0,6,2029-08-30
+114,Vishama Jwarantak Lauh,Baidyanath,Lauh,142.0,99.4,88,2028-01-08
+115,Yashtimadhu Ghrita,Baidyanath,Ghrita,385.0,269.5,17,2029-05-05
+116,Agastya Hareetaki,Zandu,Avaleha,270.0,189.0,46,2028-10-05
+117,Amritadi Ghrita,Kottakkal,Ghrita,400.0,280.0,15,2029-06-22
+118,Ashwagandhadi Lehyam,Kerala Ayurveda,Avaleha,290.0,203.0,42,2028-09-15
+119,Balarishta,Baidyanath,Asava/Arishta,226.0,158.2,34,2027-06-08
+120,Bilwadi Lehyam,Baidyanath,Avaleha,260.0,182.0,50,2027-12-15
+121,Chitraka Haritaki,Zandu,Avaleha,255.0,178.5,52,2028-04-26
+122,Dhatri Rasayan,Baidyanath,Rasayan,230.0,161.0,38,2027-10-18
+123,Drakshadi Avaleha,Baidyanath,Avaleha,310.0,217.0,28,2028-07-12
+124,Guduchi Ghana Vati,Zandu,Vati,98.0,68.6,126,2027-11-07
+125,Jirakadi Modak,Baidyanath,Avaleha,240.0,168.0,55,2027-09-30
+126,Kalyanaka Ghrita,Baidyanath,Ghrita,395.0,276.5,16,2029-09-01
