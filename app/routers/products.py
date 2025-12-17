@@ -67,6 +67,7 @@ async def upload_products_csv(file: UploadFile = File(...), db: Session = Depend
     
     products_added = []
     errors = []
+    skipped = 0
     
     for i, row in enumerate(reader):
         try:
@@ -86,15 +87,21 @@ async def upload_products_csv(file: UploadFile = File(...), db: Session = Depend
                 if col not in row:
                     raise KeyError(f"Missing column: {col}")
 
+            # Skip duplicates: consider duplicate when same name exists
+            existing = db.query(models.Product).filter(models.Product.name == row["name"]).first()
+            if existing:
+                skipped += 1
+                continue
+
             product_data = {
                 "name": row["name"],
-                "Brand": row["brand"],  
+                "Brand": row["brand"],
                 "category": row["category"],
                 "quantity": int(row["quantity"]),
                 "price": float(row["price"]),
                 "expiry_date": expiry_date
             }
-            
+
             db_product = models.Product(**product_data)
             db.add(db_product)
             products_added.append(product_data)
@@ -117,8 +124,9 @@ async def upload_products_csv(file: UploadFile = File(...), db: Session = Depend
         raise HTTPException(status_code=500, detail=f"Database commit failed: {str(e)}")
 
     return {
-        "detail": f"Successfully added {len(products_added)} products.",
+        "detail": f"Successfully added {len(products_added)} products. Skipped {skipped} duplicates.",
         "products_added": len(products_added),
+        "skipped": skipped,
         "errors": errors if errors else "None",
         "error_count": len(errors)
     }

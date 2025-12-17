@@ -2,7 +2,8 @@ from jose import JWTError, jwt
 from dotenv import load_dotenv
 import os
 from datetime import datetime, timedelta
-from . import schemas
+from . import schemas, models, database
+from sqlalchemy.orm import Session
 from fastapi import Depends, status, HTTPException
 from fastapi.security import OAuth2PasswordBearer
 
@@ -30,7 +31,8 @@ def create_access_token(data:dict):
 def verify_token(token:str,credentials_exception):
     try:
         payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
-        id: str = payload.get("users_id")
+        # token is created with key "user_id" in auth.login
+        id: str = payload.get("user_id") or payload.get("users_id")
 
         if id is None:
             raise credentials_exception
@@ -39,10 +41,21 @@ def verify_token(token:str,credentials_exception):
     except JWTError:
         raise credentials_exception
 
-def get_current_user(token:str = Depends(oauth2_scheme)):
+def get_current_user(token: str = Depends(oauth2_scheme), db: Session = Depends(database.get_db)):
     credential_exception = HTTPException(status_code=status.HTTP_401_UNAUTHORIZED,
                                         detail=f"Could not validate credentials",
                                         headers={"WWW-Authenticate":"Bearer"})
-    return verify_token(token,credential_exception)
+    token_data = verify_token(token, credential_exception)
+
+    # token_data.id should be the user id
+    try:
+        user_id = int(token_data.id)
+    except Exception:
+        user_id = token_data.id
+
+    user = db.query(models.User).filter(models.User.id == user_id).first()
+    if user is None:
+        raise credential_exception
+    return user
 
 

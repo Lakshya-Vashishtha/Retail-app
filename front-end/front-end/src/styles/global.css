@@ -1,0 +1,12 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+a { text-decoration: none; }
+
+/* simple page container */
+.app-container {
+  padding: 24px;
+}

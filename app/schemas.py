@@ -24,7 +24,7 @@ class Token(BaseModel):
     token_type: str
 
 class TokenData(BaseModel):
-    username: str
+    id: int | str
 
 class ProductBase(BaseModel):
     name: str
